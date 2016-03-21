@@ -1,0 +1,18 @@
+[user]
+	name = Steve Baranski
+	email = steven.baranski@icloud.com
+
+[github]
+    user = stevebaranski    
+
+################################################################################
+
+[credential]
+    helper = osxkeychain
+
+[alias]
+	lg = log --graph --abbrev-commit --date=relative --pretty='format: %C(yellow)%h%Creset -%C(cyan bold)%d%Creset %s %C(red bold)%an %Cgreen(%cr)'
+    subup = submodule update --init --recursive 
+    
+[push]
+    default = simple

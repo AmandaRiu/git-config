@@ -1,0 +1,19 @@
+#### Xcode 
+
+*.pbxuser
+*.perspectivev3
+*.xcodeproj/*.xcworkspace/xcshareddata/*.xccheckout
+*.xcodeproj/*.xcworkspace/xcshareddata/*.xcscmblueprint
+*.xcworkspace/xcshareddata/*.xccheckout
+*.xcworkspace/xcshareddata/*.xcscmblueprint
+xcuserdata/
+
+# Mac
+
+.DS_Store
+.DocumentRevisions-V100
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes

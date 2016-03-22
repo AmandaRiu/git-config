@@ -16,7 +16,20 @@
     
 [push]
     default = simple
+    
+################################################################################
+	
+# Applicable to Apple property list files, via http://confusatory.org/post/133141617492/git-diff-for-binary-apple-property-list-files
 
+[diff "plist"]
+    textconv = "plutil -convert xml1 -o -"
+  
+# Applicable to .strings files in Xcode, via https://gist.github.com/asmallteapot/11227602
+
+[diff "localizablestrings"]
+    textconv = "iconv -t utf-8"
+	binary = false
+	
 ################################################################################
 
 # Added via Kaleidoscope.app : http://www.kaleidoscopeapp.com

@@ -1,10 +1,10 @@
 # git-config
 
-My Git configuration, consisting of the following three files discussed herein.
+My Git configuration, comprising the following three files.
 
 ## `config`
 
-The Git configuration file includes aliases & other niceties support my typical workflow. 
+The Git configuration file includes aliases & other niceties that support my preferred workflow. 
 
 ## `ignore`
 
@@ -31,4 +31,4 @@ In all likelihood you will already have files in place for this purpose; in that
 - [Documentation for `git-config`](https://git-scm.com/docs/git-config)
 - [Documentation for `gitignore`](https://git-scm.com/docs/gitignore)
 - [Documentation for `gitattributes`](https://git-scm.com/docs/gitattributes)
-- The `subup` alias and use of the OS X credential helper were derived from [@schwa](https://github.com/schwa/git-config). Thank you.
+- The `subup` alias and use of the OS X credential helper were influenced by [Jonathan Wight](https://github.com/schwa).
